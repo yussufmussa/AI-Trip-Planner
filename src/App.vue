@@ -1,3 +1,16 @@
 <template>
-  <h1>This is demo</h1>
+  <div>
+    <TripPlanner/>
+  </div>
 </template>
+
+<script>
+import TripPlanner from './components/TripPlanner.vue';
+
+export default {
+  components: {
+    TripPlanner,
+  },
+};
+</script>
+
